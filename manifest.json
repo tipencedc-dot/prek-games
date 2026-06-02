@@ -1,0 +1,13 @@
+{
+  "name": "Play & Learn",
+  "short_name": "Play&Learn",
+  "description": "Reading & math games for pre-K.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#bfe6ff",
+  "theme_color": "#1e9e62",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

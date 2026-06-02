@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#1e9e62" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Play & Learn</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <h1 class="logo">Play &amp; Learn</h1>
+    <p class="tagline">Pick a game!</p>
+    <div class="game-grid">
+      <button class="game-card snake-card" data-game="snake">
+        <span class="emoji">🐍</span>
+        <span class="card-title">Word Snake</span>
+        <span class="card-sub">Build words!</span>
+      </button>
+      <button class="game-card fish-card" data-game="fishing">
+        <span class="emoji">🎣</span>
+        <span class="card-title">Sasquatch Fishing</span>
+        <span class="card-sub">Catch the math!</span>
+      </button>
+      <button class="game-card spell-card" data-game="spelling">
+        <span class="emoji">🕷️</span>
+        <span class="card-title">Spider-Man Spelling</span>
+        <span class="card-sub">Finish the word!</span>
+      </button>
+    </div>
+    <button id="mute-toggle" class="mute-btn" title="Sound on/off">🔊</button>
+  </section>
+
+  <!-- WORD SNAKE -->
+  <section id="snake" class="screen">
+    <header class="game-bar">
+      <button class="back-btn" data-back>⬅︎</button>
+      <div class="word-group">
+        <span class="word-pic" id="snake-pic"></span>
+        <div class="word-display" id="snake-word"></div>
+      </div>
+      <div class="score-pill">🐍 <span id="snake-score">0</span></div>
+    </header>
+    <div class="canvas-wrap">
+      <canvas id="snake-canvas"></canvas>
+    </div>
+    <div class="dpad">
+      <button class="dpad-btn up" data-dir="up">▲</button>
+      <div class="dpad-mid">
+        <button class="dpad-btn left" data-dir="left">◀</button>
+        <button class="dpad-btn right" data-dir="right">▶</button>
+      </div>
+      <button class="dpad-btn down" data-dir="down">▼</button>
+    </div>
+  </section>
+
+  <!-- SASQUATCH FISHING -->
+  <section id="fishing" class="screen">
+    <header class="game-bar">
+      <button class="back-btn" data-back>⬅︎</button>
+      <div class="level-pill">Level <span id="fish-level">1</span></div>
+      <div class="score-pill">🐟 <span id="fish-score">0</span></div>
+    </header>
+    <div class="pond">
+      <div class="scene-stage" id="scene-stage">
+        <video id="scene-win" class="scene-video" playsinline muted preload="auto">
+          <source src="assets/catch.mp4" type="video/mp4"/>
+        </video>
+        <video id="scene-wrong" class="scene-video is-hidden" playsinline preload="auto">
+          <source src="assets/wrong.mp4" type="video/mp4"/>
+        </video>
+      </div>
+      <div class="problem" id="fish-problem"></div>
+      <div class="answer-box" id="answer-box">
+        <span class="answer-hint" id="answer-hint">tap your number</span>
+        <span class="answer-entry" id="answer-entry"></span>
+      </div>
+      <div class="numpad" id="numpad">
+        <button class="key" data-key="1">1</button>
+        <button class="key" data-key="2">2</button>
+        <button class="key" data-key="3">3</button>
+        <button class="key" data-key="4">4</button>
+        <button class="key" data-key="5">5</button>
+        <button class="key" data-key="6">6</button>
+        <button class="key" data-key="7">7</button>
+        <button class="key" data-key="8">8</button>
+        <button class="key" data-key="9">9</button>
+        <button class="key del" data-key="del">⌫</button>
+        <button class="key" data-key="0">0</button>
+        <button class="key go" data-key="go">🎣</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPIDER-MAN SPELLING -->
+  <section id="spelling" class="screen">
+    <header class="game-bar">
+      <button class="back-btn" data-back>⬅︎</button>
+      <div class="level-pill">Spell it!</div>
+      <div class="score-pill">🕷️ <span id="spell-score">0</span></div>
+    </header>
+    <div class="spell-stage">
+      <div class="spell-pic" id="spell-pic">🐱</div>
+      <div class="spell-word" id="spell-word"></div>
+      <div class="spell-choices" id="spell-choices"></div>
+      <div class="spidey" id="spidey"><span class="web"></span><span class="spidey-body">🕷️</span></div>
+    </div>
+  </section>
+
+  <!-- BREAK OVERLAY -->
+  <div id="break-overlay" class="overlay">
+    <div class="overlay-card">
+      <h2>🤸 Wiggle Break!</h2>
+      <p id="break-prompt" class="break-prompt"></p>
+      <button id="break-done" class="big-btn">I did it! ✅</button>
+    </div>
+  </div>
+
+  <!-- REWARD LAYER -->
+  <div id="confetti" class="confetti-layer"></div>
+
+  <script src="js/shell.js"></script>
+  <script src="js/wordsnake.js"></script>
+  <script src="js/fishing.js"></script>
+  <script src="js/spelling.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
