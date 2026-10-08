@@ -1,0 +1,323 @@
+PRECHART v12: CPRS PERSONAL TEMPLATES
+Each block below = one CPRS personal template. Paste the text under COPY BELOW THIS LINE as-is.
+Replaces all v11.2 CHIRO templates. Names stay the same, plus one new one (CHIRO EXAM HIP).
+
+HOW TO FILL (memorize once; no prompts inside the templates anymore)
+* HISTORY: type terms after the label. Blank = drops from the note.
+* EXAM: one test per line, pre-filled "-". Change "-" to "+" and add detail after it.
+  Example: Spurling R + neck and arm pain to thumb L -
+* A test or side not done: delete it.
+* ROM: type over the number. Add ep (end range pain), tr (pain through range), or p.
+  Example: Flex 35ep
+* IF DONE lines: blank = not done. Type a result only if you did it.
+* PLAN is pre-filled with the standard plan. Edit only to change it.
+
+################ CHIRO NP BASE ################
+COPY BELOW THIS LINE
+
+np CHIRO NEW PATIENT
+CC:
+
+HISTORY
+Location:
+Onset:
+Severity (NPRS now/best/worst):
+Timing:
+Worsening:
+Alleviating:
+Radiating:
+Patient's words:
+Function (task, limit):
+Prior care / imaging:
+Cautions:
+Red flags (fever, wt loss, cancer hx, night pain, trauma): denied
+
+OBSERVATION
+General: no acute distress, posture and gait normal
+
+>> INSERT REGION EXAM(S) HERE
+
+PALPATION
+TTP / hypertonicity:
+Fixations:
+
+TREATMENT
+CMT: to the fixations above
+Extremity: to the extremity fixations above
+Soft tissue: IASTM / MRT to the myofascial findings above
+Flexion traction: lumbar
+Other tx:
+HEP:
+
+ASSESSMENT
+Dx:
+DDx:
+
+PLAN
+Goal: 50% improvement in overall symptoms within 6-8 visits
+Frequency: 6-8 visits at 1-2 week intervals
+Re-eval: at or before visit 8
+Time (min):
+
+################ CHIRO FU BASE ################
+COPY BELOW THIS LINE
+
+fu CHIRO FOLLOW-UP
+Severity (NPRS by region):
+% improvement:
+Response to last tx:
+LOSTWAR change:
+New sx / red flags: none
+
+EXAM
+Re-test:
+
+PALPATION
+TTP / hypertonicity:
+Fixations:
+
+TREATMENT
+CMT: to the fixations above
+Extremity: to the extremity fixations above
+Soft tissue: IASTM / MRT to the myofascial findings above
+Flexion traction: lumbar
+Other tx:
+HEP: continue
+
+PLAN
+Plan: continue current plan
+Time (min):
+
+################ CHIRO EXAM CERVICAL ################
+COPY BELOW THIS LINE
+
+CERVICAL EXAM
+Obs: head carriage normal, no guarding
+ROM Flex 50 Ext 60 LatR 45 LatL 45 RotR 80 RotL 80
+DTR biceps C5 R 2+ L 2+
+DTR brachioradialis C6 R 2+ L 2+
+DTR triceps C7 R 2+ L 2+
+MMT C5 to T1 5/5
+Sensation C5 to T1 intact
+Hoffmann R - L -
+Spurling R - L -
+Distraction -
+ULTT A median R - L -
+Shoulder abduction relief R - L -
+Red flags 5 Ds / 3 Ns: denied
+Red flags myelopathy (gait, Lhermitte, clumsy hands): denied
+IF DONE
+Babinski:
+Inverted supinator:
+Valsalva:
+Other:
+
+################ CHIRO EXAM HEADACHE ################
+COPY BELOW THIS LINE
+
+HEADACHE EXAM
+Obs: no acute distress
+ROM Flex 50 Ext 60 LatR 45 LatL 45 RotR 80 RotL 80
+CN II to XII intact
+Flexion rotation R - L -
+Upper cervical palpation reproduces headache -
+Spurling R - L -
+Red flags SNNOOP10: denied
+IF DONE
+Craniocervical flexion:
+Other:
+
+################ CHIRO EXAM THORACIC ################
+COPY BELOW THIS LINE
+
+THORACIC EXAM
+Obs: no hyperkyphosis or scoliosis
+ROM Flex nl Ext nl RotR 35 RotL 35
+Rib spring R - L -
+Pain with deep breath -
+Adams forward bend -
+Red flags cardiopulmonary / visceral referral: denied
+IF DONE
+Spinous percussion:
+Other:
+
+################ CHIRO EXAM LUMBAR SI ################
+COPY BELOW THIS LINE
+
+LUMBAR + SI EXAM
+Obs: alignment normal, lordosis normal, pelvis level
+ROM Flex 60 Ext 25 LatR 25 LatL 25 RotR 30 RotL 30
+DTR patellar L4 R 2+ L 2+
+DTR Achilles S1 R 2+ L 2+
+MMT L2 to S1 5/5
+Sensation L2 to S1 intact
+Babinski R - L -
+SLR R - L -
+Crossed SLR R - L -
+Slump R - L -
+Femoral nerve stretch R - L -
+SI distraction -
+Thigh thrust R - L -
+SI compression -
+Sacral thrust -
+Gaenslen R - L -
+Red flags saddle anesthesia, bowel/bladder, progressive weakness: denied
+IF DONE
+Prone instability:
+Kemp:
+Fortin:
+Other:
+
+################ CHIRO EXAM HIP ################
+COPY BELOW THIS LINE
+
+HIP EXAM
+Obs: gait normal, no antalgia
+HIP ROM R Flex 120 IR 45 ER 45 Abd 45
+HIP ROM L Flex 120 IR 45 ER 45 Abd 45
+FABER R - L -
+FADIR R - L -
+Scour R - L -
+Log roll R - L -
+Single leg stance 30 s R - L -
+Resisted external derotation R - L -
+Trendelenburg R - L -
+Tender greater trochanter R - L -
+Red flags groin pain with inability to bear weight, fever: denied
+IF DONE
+Thomas:
+Ober:
+Other:
+
+################ CHIRO EXAM SHOULDER ################
+COPY BELOW THIS LINE
+
+SHOULDER EXAM
+Obs: no atrophy or deformity, scapular position normal
+AROM R Flex 180 Abd 180 Ext 60 ER 90 IR 70
+AROM L Flex 180 Abd 180 Ext 60 ER 90 IR 70
+Painful arc R - L -
+Hawkins Kennedy R - L -
+Neer R - L -
+Resisted ER weakness R - L -
+Empty can R - L -
+Drop arm R - L -
+ER lag R - L -
+Cross body adduction R - L -
+Tender AC joint R - L -
+Tender bicipital groove R - L -
+Cervical referral screen -
+Red flags trauma, deformity, mass, infection: denied
+IF DONE
+PROM:
+Lift off / belly press:
+Speed:
+Apprehension / relocation:
+Other:
+
+################ CHIRO EXAM ELBOW ################
+COPY BELOW THIS LINE
+
+ELBOW EXAM
+Obs: no swelling, effusion, or deformity
+ELBOW ROM R Flex 150 Ext 0 Pron 80 Sup 80
+ELBOW ROM L Flex 150 Ext 0 Pron 80 Sup 80
+Cozen R - L -
+Reverse Cozen R - L -
+Tender lateral epicondyle R - L -
+Tender medial epicondyle R - L -
+Elbow flexion test R - L -
+Cubital tunnel Tinel R - L -
+Valgus stress R - L -
+Varus stress R - L -
+Red flags trauma, effusion, erythema: denied
+IF DONE
+Mill:
+Elbow extension test:
+Hook test:
+Other:
+
+################ CHIRO EXAM WRIST HAND ################
+COPY BELOW THIS LINE
+
+WRIST + HAND EXAM
+Obs: no swelling, atrophy, or deformity
+WRIST ROM R Flex 80 Ext 70 RadDev 20 UlnDev 30
+WRIST ROM L Flex 80 Ext 70 RadDev 20 UlnDev 30
+Grip and intrinsics 5/5
+Sensation median, ulnar, radial intact
+Phalen R - L -
+Carpal compression R - L -
+Wrist Tinel R - L -
+Finkelstein R - L -
+CMC grind R - L -
+Tender anatomic snuffbox R - L -
+Red flags trauma, effusion, erythema: denied
+IF DONE
+Shake / flick sign:
+Scaphoid shift:
+Other:
+
+################ CHIRO EXAM KNEE ################
+COPY BELOW THIS LINE
+
+KNEE EXAM
+Obs: no effusion, swelling, or deformity; gait normal
+KNEE ROM R Flex 135 Ext 0
+KNEE ROM L Flex 135 Ext 0
+Lachman R - L -
+Lever sign R - L -
+Posterior drawer R - L -
+McMurray R - L -
+Thessaly R - L -
+Valgus stress 30 R - L -
+Varus stress 30 R - L -
+Tender medial joint line R - L -
+Tender lateral joint line R - L -
+Tender patellar tendon R - L -
+Tender pes anserine R - L -
+Red flags Ottawa knee rules: negative
+IF DONE
+Anterior drawer:
+Pivot shift:
+Patellar apprehension:
+Other:
+
+################ CHIRO EXAM ANKLE FOOT ################
+COPY BELOW THIS LINE
+
+ANKLE + FOOT EXAM
+Obs: no swelling, ecchymosis, or deformity; gait normal
+ANKLE ROM R DF 20 PF 50 Inv 35 Ev 15
+ANKLE ROM L DF 20 PF 50 Inv 35 Ev 15
+Anterior drawer R - L -
+Talar tilt R - L -
+Squeeze test R - L -
+Thompson R - L -
+Windlass R - L -
+Tender ATFL R - L -
+Tender plantar fascia origin R - L -
+Tender Achilles R - L -
+Red flags Ottawa ankle rules: negative
+IF DONE
+ER stress (Kleiger):
+Tarsal tunnel Tinel:
+Other:
+
+################ CHIRO EXAM TMJ ################
+COPY BELOW THIS LINE
+
+TMJ EXAM
+Obs: no swelling or facial asymmetry
+TMJ ROM Opening 40mm LatR 10mm LatL 10mm Protrusion 10mm
+Opening path midline, no deviation
+Click R - L -
+Crepitus R - L -
+Load / compression R - L -
+Tender TMJ R - L -
+Tender masseter R - L -
+Tender temporalis R - L -
+Red flags locking, trismus, new malocclusion, swelling: denied
+IF DONE
+CN screen:
+Other:

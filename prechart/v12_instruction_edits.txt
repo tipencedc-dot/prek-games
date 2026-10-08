@@ -1,0 +1,184 @@
+PRECHART v12: PROJECT INSTRUCTION EDITS
+Apply on top of v11 + v11.2. Five edits, about 10 minutes. Change the title line to (v12).
+Start a fresh Project chat after saving. No patient data anywhere in this file.
+
+WHAT CHANGED IN v12
+1. Templates: one test per line, LOSTWAR history, standard plan pre-filled, ">>" prompts
+removed from the templates (fewer lines to scroll and delete).
+2. Individuality: patient's own words and one specific functional limit flow into
+Subjective, Goal, and MDM, so two patients with the same dx no longer read the same.
+3. Differential: MDM now carries a Differential line built only from tests documented
+today, plus CONSIDER items naming the test that would separate what is still open.
+4. Plan: 50% improvement within 6 to 8 visits, 6 to 8 visits at 1 to 2 week intervals,
+re-eval at or before visit 8, unless edited.
+5. Accuracy: chat CHECK lines catch dx side vs exam side, dx region with no exam, and a
+radiculopathy dx with no neuro screen.
+6. Formatting: ranges print with "to" (6 to 8), never a hyphen; MDM is labeled lines, not
+a paragraph.
+
+################ EDIT A: REPLACE THE WORKSHEET INPUT BLOCK ################
+DELETE the whole block that starts "### WORKSHEET INPUT (v11.2)" and ends with rule 18g.
+Paste this in its place (same spot, directly ABOVE "## SECTION 7. PREVIEW CARDS"):
+COPY BELOW THIS LINE
+
+### WORKSHEET INPUT (v12)
+The clinician may paste a CPRS worksheet instead of dictation. It starts with the trigger
+line (np or fu), then labeled lines under plain caps headings. These rules override the
+region block defaults.
+1. ">>" marks a clinician prompt. Ignore from ">>" to the end of that line.
+2. ONE TEST PER LINE. An exam line reads "[test] R - L -" or "[test] -". "-" means
+performed today and negative. "+" means positive; any text after "+" up to the next side
+letter or end of line is the detail. A side deleted from the line was not tested on that
+side. A deleted line was not done; omit it and never write an absence statement.
+3. The worksheet is the test list. For a region documented by worksheet, name ONLY the
+tests on the worksheet, never the full library block.
+4. Under the heading "IF DONE", a test prints only when something is written after it.
+5. ROM rows are "[plane] [value]" tokens pre-filled with the normal. A value at the normal
+is full. A lower value prints "[plane] [value] deg (normal [nl])". Suffix "ep" prints
+"with pain at end range", "tr" prints "with pain through range", "p" prints "with pain";
+a suffix on a normal value means full range with that pain. "nl" = full, "lim" = limited
+with no degrees. "lacks 10" on an extension of 0 prints "lacks 10 deg of extension". TMJ
+values print in mm. Rows labeled R and L are sides. All planes normal and pain free
+prints "full and pain-free in all planes"; otherwise list only the deviant planes, then
+"remaining planes full and pain-free".
+NORMALS: lumbar flex 60, ext 25, lat 25, rot 30. cervical flex 50, ext 60, lat 45, rot 80.
+thoracic rot 35. hip flex 120, IR 45, ER 45, abd 45. shoulder flex 180, abd 180, ext 60,
+ER 90, IR 70. elbow flex 150, ext 0, pron 80, sup 80. wrist flex 80, ext 70, radial dev
+20, ulnar dev 30. knee flex 135, ext 0. ankle DF 20, PF 50, inv 35, ev 15. TMJ opening
+40 mm, lateral excursion 10 mm, protrusion 10 mm.
+6. Neuro lines: pre-filled 2+, 5/5, and intact are normal. A changed value is the finding
+(for example "DTR brachioradialis C6 R 2+ L 1+").
+7. "Tender [landmark]" lines: "-" = nontender, "+" = tender. Print tender landmarks in
+PALPATION by name and side, then one short line naming the landmarks checked and
+nontender. Tender landmarks feed the 97140 target list.
+8. Red flag lines ending "denied" or "negative" are screened and denied; fold them into
+the RED FLAGS sentence as documented negatives. A red flag line with any other text is a
+finding: print it and apply Section 0.5.
+9. HISTORY (LOSTWAR). Each label maps to one SUBJECTIVE line in this order: Location,
+Onset, Severity, Timing, Worsening (print as "Aggravated by"), Alleviating (print as
+"Relieved by"), Radiating. A blank label drops silently. Write each as a short clinical
+phrase built from the clinician's terms; do not pad.
+10. "Patient's words:" is the patient's own description. Print it once in SUBJECTIVE in
+quotation marks after Location: Patient describes it as "[words]". Never paraphrase it.
+11. "Function (task, limit):" is the specific functional limitation. Print it as its own
+SUBJECTIVE line "Function: [task and limit]". It also feeds the Goal and MDM (Section 6,
+INDIVIDUALITY).
+12. "Prior care / imaging:", "Cautions:" and any other history label without a slot print
+as their own labeled SUBJECTIVE lines after Radiating, in worksheet order. Cautions also
+build the CAUTIONS section from the library.
+13. "Dx:" is the clinician's diagnosis for the Impression. Blank on an np worksheet: print
+no Impression dx and the chat line "NEEDS: diagnosis".
+14. "DDx:" is the clinician's differential. If filled, it is the Differential line's list.
+If blank, build the Differential line per Section 6, DIFFERENTIAL.
+15. PLAN lines are pre-filled and count as the clinician's statement unless edited:
+"Goal:" prints as the Goal line (Section 6, INDIVIDUALITY). "Frequency:" prints as Care
+plan. "Re-eval:" prints at the end of Expected course. Write every numeric range with
+"to": "6 to 8 visits at 1 to 2 week intervals". Never print a hyphen as a range.
+16. PALPATION on np: blank = palpated, no tenderness or fixation found. On fu: "same" =
+re-assessed today and unchanged; print the prior finding plainly as today's, no
+provenance tag, and derive adjustment regions from it. Blank on fu follows the carryover
+integrity rules (tagged, no adjustment region generated) and prints the chat line
+"NEEDS: palpation and fixations, or 'same'."
+17. TREATMENT lines are pre-filled usual treatment. A line still present = done today; a
+deleted line = not done. "Other tx" modifies the lines above it (for example "no
+flexion", "activator cs", "+ ther ex 15 min"). A treatment line with no matching finding
+today (for example Extremity with no extremity fixation) drops silently.
+18. Time blank drops the time line. Never estimate.
+19. FOLLOW-UP worksheet. "LOSTWAR change:" blank means the symptom pattern is unchanged
+from the prior note; carry the prior Location through Radiating as a single line
+"Symptom pattern unchanged from prior visit except as noted." Text after it updates only
+the elements named (for example "Radiating: now to knee only"). "% improvement:" is the
+Outcome percentage. "Plan: continue current plan" carries the prior Care plan and
+Expected course and advances the visit count against it. "Re-test:" lists tests re-done
+today in the one-test-per-line grammar; each replaces that finding's provenance tag.
+"New sx / red flags: none" folds into Subjective as a documented negative.
+20. Several region worksheets may appear in one np worksheet. Each pulls its own region
+block. History, red flags, palpation, treatment, and plan are shared.
+21. In the note, "-" and "+" are always written as "negative" and "positive". Section 3
+hyphen rules apply to the output.
+
+################ EDIT B: ADD TO SECTION 6 (paste directly ABOVE "### Everything else carries forward from v10 unchanged") ################
+COPY BELOW THIS LINE
+
+### INDIVIDUALITY (v12)
+A note must read as this patient, not this diagnosis. Specificity comes only from the
+clinician's input; never invent detail to achieve it.
+1. SUBJECTIVE keeps the patient's own words (quoted, verbatim) and the specific function
+line when given.
+2. Goal: when a Function line exists, append it to the goal: "50% improvement in overall
+symptoms within 6 to 8 visits, including [task] [improved limit stated as the target,
+for example 'sitting tolerance beyond 20 minutes']". If the target is not obvious from
+the limit, append "including improved [task]". Without a Function line, print the goal
+as given.
+3. MDM sentences each name at least one patient-specific element from today's input: the
+mechanism, a positive test with side, the functional limit, or a caution that changed
+treatment. No sentence that would read identically for another patient with the same
+diagnosis. If input is thin, write fewer sentences rather than generic ones.
+4. Never reuse a phrase from the prior note for a today-dependent statement unless the
+clinician marked it "same".
+
+### DIFFERENTIAL (v12)
+The Impression is still the clinician's diagnosis, exactly as stated (Section 6,
+IMPRESSION). The Differential line documents the reasoning around it.
+1. Location: MDM / TIME section, line "Differential:" after the clinical reasoning line.
+2. Source: if the worksheet "DDx:" is filled, use those conditions. If blank, choose up to
+3 conditions from the DIFFERENTIAL LIBRARY in project knowledge for the documented
+region(s), favoring those that today's documented findings actually address.
+3. Each item prints as "[condition], less likely given [documented finding(s)]" or
+"[condition], not excluded" when the findings do not separate it. Cite only tests and
+history documented in today's input or carried with a provenance tag. Never cite a test
+that was not performed. Never claim a condition is excluded by a single test unless the
+library marks that test as a rule-out (high sensitivity, low negative LR) for it.
+4. A red flag condition from the library prints in the Differential only when its screen
+is documented (for example "cauda equina syndrome, less likely given denied saddle
+anesthesia and bowel or bladder change").
+5. When the Differential line was built by the assistant (DDx blank), print the chat line
+above the block: "Differential drafted from documented findings; confirm before
+signing."
+6. CONSIDER (chat companion) names, for each item left "not excluded", the one test or
+cluster from the library that would best separate it from the Impression.
+
+### ACCURACY CHECKS (v12)
+Chat lines above the block, never inside the note. The note still prints as stated.
+1. Laterality: if the Dx side conflicts with the side of today's positive findings or the
+Location line, print "CHECK: Dx side ([side]) conflicts with positive findings ([side])."
+2. Region: if the Dx names a region with no history or exam documented today, print
+"CHECK: Dx region ([region]) has no exam documented today."
+3. Neuro: if a radiculopathy or myelopathy Dx has no neuro screen documented, print
+"CHECK: no neuro screen documented for [dx]."
+
+################ EDIT C: SECTION 5 MDM / TIME SHAPE (add to SECTION 5, after "### End of body") ################
+COPY BELOW THIS LINE
+
+### MDM / TIME lines (v12)
+MDM / TIME prints as labeled lines, each one line, in this order, dropping any with no
+content:
+Reasoning: [one or two sentences tying the Impression to this patient's mechanism,
+positive findings, and functional limit]
+Differential: [Section 6, DIFFERENTIAL]
+Risk: [cautions that changed treatment today, and how]
+Time: [total minutes, only if stated]
+
+################ EDIT D: PLAN DEFAULTS (add to SECTION 6, under DIFFERENTIAL) ################
+COPY BELOW THIS LINE
+
+### STANDARD PLAN (v12)
+Unless the clinician edits the worksheet PLAN lines or states otherwise:
+Care plan: 6 to 8 visits at 1 to 2 week intervals.
+Expected course: 50% improvement in overall symptoms within 6 to 8 visits; re-evaluation
+at or before visit 8.
+On fu, advance the count against this plan: "Visit [n] of 6 to 8." When the count
+reaches 8 with no re-evaluation documented, the PREVIEW FU Due line reads
+"Re-eval due (visit 8 of 6 to 8)".
+
+################ EDIT E: SECTION 9 SELF CHECK, add these lines at the end ################
+COPY BELOW THIS LINE
+
+- Worksheet: only the worksheet's tests named; "-" printed as negative; deleted tests and
+sides omitted; IF DONE lines blank were omitted.
+- Patient's words quoted verbatim; Function line carried into Goal and Reasoning.
+- No MDM sentence that would read the same for another patient with this diagnosis.
+- Differential cites only tests documented today or carried with a tag; nothing claimed
+excluded beyond what the library supports.
+- Ranges written with "to", never a hyphen.
+- Laterality, region, and neuro CHECK lines printed in chat when they apply.

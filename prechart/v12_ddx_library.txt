@@ -1,0 +1,187 @@
+PRECHART v12: DIFFERENTIAL LIBRARY (append to project knowledge)
+Paste at the END of the project knowledge file under its own heading. Used by
+Section 6, DIFFERENTIAL. Plain text, no patient data.
+
+## DIFFERENTIAL LIBRARY (v12)
+Format per condition:
+[condition] | supports: [history or tests that raise it] | separate with: [best test or
+cluster] | rule-out: [finding that, when negative or denied, makes it less likely]
+"rule-out" lists only high sensitivity findings (negative result lowers probability).
+"rule-in" findings are high specificity (positive result raises probability) and are
+named under "separate with". A single negative low sensitivity test (for example
+Spurling) never makes a condition "less likely" on its own.
+
+### CERVICAL
+Mechanical neck pain / facet | supports: local pain, pain on extension and rotation,
+segmental tenderness, no arm signs | separate with: absence of radicular cluster |
+rule-out: none
+Cervical radiculopathy | supports: dermatomal arm pain or paresthesia, reflex or myotomal
+change | separate with: Wainner cluster (ULTT A, Spurling, distraction, rotation under 60
+deg to the involved side; 3 of 4 positive raises probability) | rule-out: ULTT A
+negative
+Cervical myelopathy | supports: clumsy hands, gait change, bilateral symptoms, UMN signs |
+separate with: Cook cluster (gait deviation, Hoffmann, inverted supinator, Babinski, age
+over 45; 3 of 5 raises probability) | rule-out: 0 to 1 of the Cook cluster
+Cervicogenic headache | supports: unilateral side-locked headache provoked by neck
+movement or posture | separate with: flexion rotation test, upper cervical palpation
+reproducing familiar headache | rule-out: none reliable
+Thoracic outlet / brachial plexus | supports: positional arm symptoms, overhead
+provocation | separate with: refer if vascular signs | rule-out: none reliable
+Shoulder pathology referring to neck | supports: pain with shoulder motion | separate
+with: shoulder exam, cervical referral screen | rule-out: none
+RED FLAG: vertebral or carotid artery dissection | screen: 5 Ds / 3 Ns, new severe
+headache or neck pain unlike prior | action: SAFETY FLAG
+RED FLAG: upper cervical instability | screen: trauma, RA, Down syndrome, Sharp-Purser |
+action: SAFETY FLAG
+
+### HEADACHE
+Cervicogenic headache | as above
+Tension-type headache | supports: bilateral pressing, no aggravation by routine activity,
+pericranial tenderness | separate with: ICHD-3 criteria | rule-out: none
+Migraine | supports: pulsating, moderate to severe, aggravated by activity, nausea or
+photophobia and phonophobia | separate with: ICHD-3 criteria | rule-out: none
+Medication overuse headache | supports: analgesic use 10 to 15 or more days per month |
+separate with: medication history | rule-out: none
+RED FLAG: secondary headache | screen: SNNOOP10 | action: SAFETY FLAG on any positive
+
+### THORACIC
+Mechanical thoracic pain / costovertebral dysfunction | supports: local pain, pain with
+rotation or deep breath, rib spring reproduction | separate with: segmental palpation |
+rule-out: none
+Thoracic radiculopathy / post-herpetic | supports: band-like dermatomal pain, rash history
+| separate with: history and sensation | rule-out: none
+Scoliosis | supports: rib hump or asymmetry | separate with: Adams forward bend | rule-out:
+Adams negative
+RED FLAG: cardiopulmonary, visceral, or compression fracture | screen: exertional pain,
+dyspnea, visceral pattern, osteoporosis or steroid use with trauma | action: SAFETY FLAG
+
+### LUMBAR / SI
+Nonspecific mechanical low back pain | supports: pain that varies with posture and
+movement, no neuro signs | separate with: absence of radicular and SIJ clusters |
+rule-out: none
+Lumbar radiculopathy (disc) | supports: leg pain below knee worse than back pain,
+dermatomal pattern | separate with: crossed SLR (positive raises probability), slump,
+reflex or myotomal change | rule-out: SLR negative
+Upper lumbar radiculopathy (L2 to L4) | supports: anterior thigh pain | separate with:
+femoral nerve stretch, patellar reflex, quadriceps strength | rule-out: none reliable
+Lumbar spinal stenosis | supports: age over 50 to 65, bilateral leg symptoms with walking
+or standing relieved by sitting or flexion | separate with: history cluster, two-stage
+treadmill | rule-out: no relief with sitting makes it less likely
+SI joint pain | supports: pain below L5 over PSIS, no centralization | separate with:
+Laslett cluster (distraction, thigh thrust, compression, sacral thrust, Gaenslen; 3 of 5
+raises probability) | rule-out: 0 to 1 of the Laslett cluster, especially thigh thrust
+and distraction negative
+Facet mediated pain | supports: extension and rotation provoke, no neuro signs |
+separate with: none reliable on exam | rule-out: none
+Hip pathology referring to low back | supports: groin pain, limited hip IR | separate
+with: hip exam | rule-out: full painless hip IR
+RED FLAG: cauda equina syndrome | screen: saddle anesthesia, bowel or bladder change,
+bilateral or progressive weakness | action: SAFETY FLAG
+RED FLAG: fracture, malignancy, infection | screen: trauma, osteoporosis, steroids,
+cancer history, weight loss, fever, night pain, IV drug use | action: SAFETY FLAG
+
+### HIP
+Hip osteoarthritis | supports: age over 50, groin pain, morning stiffness under 1 hour,
+limited IR | separate with: Sutlive cluster (squatting aggravates, lateral pain with
+active flexion, scour with adduction painful, active extension painful, IR 25 deg or
+less; 4 of 5 raises probability) | rule-out: full painless IR
+FAI / labral | supports: younger, groin pain with flexion and rotation, clicking |
+separate with: imaging | rule-out: FADIR negative
+Gluteal tendinopathy / GTPS | supports: lateral hip pain, side-lying pain, tender greater
+trochanter | separate with: single leg stance 30 s, resisted external derotation |
+rule-out: greater trochanter nontender
+Lumbar referral | supports: back pain, neuro signs, normal hip exam | separate with:
+lumbar exam | rule-out: none
+RED FLAG: occult hip fracture, AVN, septic hip | screen: fall with inability to bear
+weight, steroid or alcohol history, fever | action: SAFETY FLAG
+
+### SHOULDER
+Subacromial pain / RC tendinopathy | supports: lateral arm pain, painful arc | separate
+with: Park cluster (Hawkins Kennedy, painful arc, ER weakness; all 3 raises probability)
+| rule-out: Hawkins Kennedy and Neer both negative
+Full thickness RC tear | supports: age over 60, weakness, night pain | separate with: drop
+arm, ER lag (positive raises probability) | rule-out: none reliable on exam
+Adhesive capsulitis | supports: loss of passive ER, diabetes, age 40 to 60 | separate
+with: PROM equal to AROM loss, ER most limited | rule-out: full passive ER
+AC joint pathology | supports: superior shoulder pain | separate with: cross body
+adduction, AC tenderness | rule-out: AC joint nontender
+Glenohumeral instability | supports: younger, dislocation history | separate with:
+apprehension, relocation | rule-out: none
+Cervical referral | supports: neck pain, dermatomal arm symptoms | separate with:
+cervical exam, Spurling | rule-out: none
+RED FLAG: cardiac referral, fracture or dislocation, infection, tumor (Pancoast) | screen:
+exertional pain, trauma deformity, fever, mass, apical lung history | action: SAFETY FLAG
+
+### ELBOW
+Lateral elbow tendinopathy | supports: lateral pain with gripping | separate with: Cozen,
+Mill, lateral epicondyle tenderness | rule-out: lateral epicondyle nontender
+Medial elbow tendinopathy | supports: medial pain with gripping | separate with: reverse
+Cozen, medial epicondyle tenderness | rule-out: medial epicondyle nontender
+Cubital tunnel syndrome | supports: ulnar digit paresthesia | separate with: elbow
+flexion test with pressure, Tinel | rule-out: none reliable
+Radial tunnel / cervical C6 to C7 referral | supports: lateral forearm pain, neck pain |
+separate with: cervical exam | rule-out: none
+RED FLAG: fracture, distal biceps rupture, septic bursitis | screen: elbow extension test
+after trauma, hook test, erythema with fever | action: SAFETY FLAG
+
+### WRIST / HAND
+Carpal tunnel syndrome | supports: nocturnal median paresthesia, shaking relieves |
+separate with: Wainner CTS cluster (shake relief, wrist ratio over 0.67, symptom
+severity, diminished thumb sensation, age over 45), carpal compression, Phalen |
+rule-out: none reliable on exam
+De Quervain tenosynovitis | supports: radial wrist pain with thumb use | separate with:
+Finkelstein, first dorsal compartment tenderness | rule-out: none reliable
+CMC osteoarthritis | supports: thumb base pain with pinch, age over 50 | separate with:
+CMC grind, imaging | rule-out: none
+Cervical C6 to C7 referral | supports: neck pain, dermatomal pattern | separate with:
+cervical exam | rule-out: none
+RED FLAG: scaphoid fracture | screen: fall on outstretched hand with snuffbox
+tenderness | action: SAFETY FLAG and imaging
+
+### KNEE
+Patellofemoral pain | supports: anterior knee pain with stairs, squatting, sitting |
+separate with: pain with squat, exclusion of other structures | rule-out: none reliable
+Meniscal lesion | supports: twisting mechanism, locking or catching, effusion | separate
+with: McMurray, Thessaly, joint line tenderness | rule-out: none reliable alone
+ACL tear | supports: noncontact pivot, pop, rapid effusion | separate with: Lachman
+(rule-out when negative), pivot shift (rule-in when positive), lever sign | rule-out:
+Lachman negative
+PCL tear | supports: dashboard or fall on flexed knee | separate with: posterior drawer |
+rule-out: posterior drawer negative
+MCL / LCL sprain | supports: valgus or varus mechanism | separate with: valgus or varus
+stress at 30 deg | rule-out: stress test negative
+Knee OA | supports: age over 50, morning stiffness under 30 minutes, crepitus, bony
+enlargement | separate with: ACR clinical criteria | rule-out: none
+Pes anserine bursitis / tendinopathy | supports: medial pain below joint line | separate
+with: pes anserine tenderness | rule-out: nontender pes anserine
+Hip or lumbar referral | supports: normal knee exam | separate with: hip exam | rule-out:
+none
+RED FLAG: fracture, septic joint, DVT | screen: Ottawa knee rules, fever with hot joint,
+calf swelling | action: SAFETY FLAG
+
+### ANKLE / FOOT
+Lateral ankle sprain (ATFL / CFL) | supports: inversion mechanism, lateral swelling |
+separate with: anterior drawer at 4 to 5 days, talar tilt, ATFL tenderness | rule-out:
+anterior drawer negative at delayed exam
+Syndesmotic (high ankle) sprain | supports: external rotation mechanism, pain above
+ankle mortise | separate with: squeeze test, ER stress | rule-out: none reliable
+Plantar heel pain | supports: first step pain, medial calcaneal tenderness | separate
+with: plantar fascia origin tenderness, windlass | rule-out: none reliable
+Achilles tendinopathy | supports: pain 2 to 6 cm above insertion, morning stiffness |
+separate with: Achilles tenderness, Thompson negative | rule-out: none
+Tarsal tunnel syndrome | supports: medial plantar paresthesia | separate with: tarsal
+tunnel Tinel | rule-out: none
+RED FLAG: fracture, Achilles rupture | screen: Ottawa ankle rules, Thompson | action:
+SAFETY FLAG and imaging or referral
+
+### TMJ
+TMD myalgia | supports: jaw pain with function, masticatory muscle tenderness | separate
+with: DC/TMD familiar pain on palpation | rule-out: none
+TMJ arthralgia | supports: pain localized to joint | separate with: familiar pain with
+joint palpation or movement | rule-out: none
+Disc displacement with reduction | supports: clicking | separate with: reproducible
+click on opening and closing | rule-out: none
+Disc displacement without reduction | supports: locking history, opening under 40 mm |
+separate with: limited opening with deflection | rule-out: opening 40 mm or more
+RED FLAG: infection, neoplasm, giant cell arteritis | screen: fever, swelling, new
+malocclusion, jaw claudication over age 50 | action: SAFETY FLAG
